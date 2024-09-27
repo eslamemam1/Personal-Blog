@@ -1,1 +1,27 @@
 /* Blog Post Page Styles */
+.blog-post-artical , .blog-post-artical > h2 {
+    margin-top: 10px;
+}
+.blog-post-artical > h2{
+    font-size: 30px;
+}
+.p-post-art , .p-post-art > a {
+    font-size: 14px;
+    margin-block: 10px;
+    color: gray;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+}
+
+.aside-section{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(237, 237, 237);
+}
+.aside-p-about{
+    font-size: 25px;
+    margin-block: 10px;
+}

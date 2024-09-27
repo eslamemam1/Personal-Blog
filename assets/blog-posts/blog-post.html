@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Post Title</title>
+    <title>Blog Post</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/blog-post.css">
+    <link rel="stylesheet" href="../css/css-font/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-    <header class="navbar">
-        <h1>Blog Post Title</h1>
-        <a href="../../index.html" class="btn">Back to Homepage</a>
+    <header class="navbar contaner">
+        <div class="logo-contaner">
+            <img class="logo" src="../images/BlogLogo.png" alt="Logo">
+            <span>My Blog</span>
+        </div>
+        <nav class="nav-links">
+            <a class="links font-style" href="../../index.html">Home</a>
+            <a class="links font-style" href="blog-post.html">Blog Post</a>
+            <a class="links font-style" href="#">Subscribe</a>
+        </nav>
+        <i id="list-icon" class="fas fa-list font-style links "></i>
     </header>
 
-    <article>
-        <h2>Blog Post Header</h2>
-        <p>This is the content of the blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+   <section class="main-section contaner ">
+    <article class="blog-post-artical">
+        <h2>Blog Post</h2>
+        <p class="p-post-art">oct 1 , 2024 by <a href="http://#">Eslam</a> </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eum voluptas maiores tempore! Qui nostrum est, fuga itaque non exercitationem?</p>
 
         <h3>Author Info</h3>
         <p><strong>Author Name</strong> - Current Company</p>
@@ -25,9 +44,20 @@
         <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">LinkedIn</a>
     </article>
 
+    <aside class="aside">
+        <section class="aside-section">
+            <div class="aside-about">
+                <p class="aside-p-about">About</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, in.</p>
+            </div>
+        </section>
+    </aside>
+   </section>
+
     <footer>
         <p>&copy; 2024 My Personal Blog</p>
     </footer>
 
 </body>
+
 </html>
