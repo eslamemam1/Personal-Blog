@@ -130,4 +130,9 @@
         margin: auto;
     }
 }
+@media (min-width: 600px) and (max-width:900px) {
+    .sub-head{
+        font-size: 22px;
+    }
+}
 
