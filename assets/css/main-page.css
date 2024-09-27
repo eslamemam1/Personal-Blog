@@ -9,7 +9,7 @@ body {
 
 .font-style{
     font-size: 1.3em;
-    color: gray;
+    color: #2d3748;
 }
 
 /* Contaner */
@@ -65,7 +65,7 @@ body {
 }
 
 .btn {
-    background-color: gray;
+    background-color: #2d3748;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -95,6 +95,6 @@ body {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #667fea;
+    background-color: #2d3748;
     color: white;
 }
