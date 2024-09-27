@@ -54,3 +54,16 @@ blockquote{
 .link-archive{
     margin-block: 10px;
 }
+.figure-img{
+    border-radius: 50%;
+}
+.figure-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.figure-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}

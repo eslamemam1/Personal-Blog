@@ -94,11 +94,40 @@
         background-position: center;
         background-size: cover;
     }
+    figcaption{
+        font-size: 20px;
+    margin-block: 20px;
+    }
+    .figure-img{
+        width: 300px;
+        margin: auto;
+    }
 }
 @media (max-width : 768px) {
     .main-section{
         display: grid;
         grid-template-columns: 1fr ;
+        gap: 0;
+    }
+    .archives-contaner{
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+    }
+    .link-archive{
+        display: inline;
+    }
+    .figure-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    figcaption{
+        font-size: 15px;
+    margin-block: 20px;
+    }
+    .figure-img{
+        width: 200px;
+        margin: auto;
     }
 }
 
