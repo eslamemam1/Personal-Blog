@@ -34,10 +34,12 @@
     }
     .left-side{
         width: 100%;
-        display: flex;
-        justify-content: center;
         font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
+        padding-bottom: 30px;
     }
     
     .right-side{
@@ -69,7 +71,9 @@
         width: 100%;
         font-size: 22px;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     
     .right-side{
@@ -92,5 +96,6 @@
     }
     
 }
+
 
 
