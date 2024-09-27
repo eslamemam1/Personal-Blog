@@ -99,6 +99,36 @@
     color: #667fea;
 }
 
+.contact-me{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #667fea;
+    color: white;
+    border: none;
+}
+
+.contact-me:hover{
+    background-color: #2d3748;
+    cursor: pointer;
+}
+
+.about-me{
+    padding: 15px;
+    border-radius: 20px;
+    border: #2d3748 0px solid;
+    background-color: #2d3748 ;
+    color: white;
+}
+
+.about-me:hover{
+    background-color: #667fea;
+    cursor: pointer;
+}
+
+.left-side > p {
+    padding-block: 20px;
+}
+
 /* Footer Styles */
 .footer {
     height: 30px;
