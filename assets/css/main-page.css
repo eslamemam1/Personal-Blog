@@ -1,0 +1,125 @@
+/* Main Page Styles */
+
+body {
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+    color: #2d3748;
+}
+
+.font-style{
+    font-size: 1.3em;
+    color: gray;
+}
+
+/* Contaner */
+
+.contaner {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header NaveBar  */
+
+.nav-links{
+    width: 50%;
+    text-align: right;
+}
+
+.logo-contaner{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-contaner > span {
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.logo{
+    height: 40px;
+}
+
+.navbar {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+/* Links For NavBar */
+
+.links {
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Effect for NavBar Links */
+
+.links:hover {
+    color: #667fea;
+    border-radius: 10px;
+}
+
+.hero-section{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-pic-contaner{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: #2d3748 1px solid;
+    background-image: url('../images/myPic.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.right-side{
+    width: 50%;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: #667fea;
+}
+
+.card {
+    max-height: 250px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.2);
+    margin-bottom: 20px;
+}
+
+.my-name{
+    color: #667fea;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #667fea;
+    color: white;
+}

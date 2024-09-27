@@ -1,0 +1,5 @@
+/* Import other CSS files */
+@import url('media-query.css');
+@import url('layout.css');
+@import url('main-page.css');
+
