@@ -182,3 +182,9 @@ footer > p {
     color: white;
     font-style: italic;
 }
+.u{
+    text-decoration: underline;
+}
+.em{
+    font-style: italic;
+}
