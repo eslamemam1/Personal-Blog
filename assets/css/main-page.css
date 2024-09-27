@@ -83,6 +83,7 @@
     width: 80px;
     height: 30px;
     padding: 5px;
+    font-size: 13px;
 
 }
 
@@ -120,13 +121,15 @@
 
 .btn-div{
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    margin-inline: 20px;
 }
 .bnt-pic{
     background-image: url('../images/featured-post.jpg');
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 
 }
