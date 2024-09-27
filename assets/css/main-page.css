@@ -64,31 +64,6 @@ body {
     border-radius: 10px;
 }
 
-.hero-section{
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.my-pic-contaner{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    border: #2d3748 1px solid;
-    background-image: url('../images/myPic.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.left-side{
-    width: 50%;
-}
-
-.right-side{
-    width: 50%;
-}
-
 .btn {
     background-color: gray;
     color: white;
